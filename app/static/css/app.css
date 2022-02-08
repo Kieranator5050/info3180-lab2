@@ -1,3 +1,60 @@
 body {
     padding-top: 5rem;
+    text-align: center;
+}
+
+.header-section{
+    
+    background-color: #2075e4;
+    color: white;
+
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+}
+
+.header-info{
+    margin: 5px;
+    padding: 0;
+}
+
+.profile-pic{
+    height: 15%;
+    width: 15%;
+}
+
+.name{
+    text-shadow: 1px 2px 0px #19335c;
+}
+
+.body-section{
+
+}
+
+.bio{
+    margin: 2%
+}
+
+.bar-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-item{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.btn{
+    background-color: #73b0ff;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    margin: 8px 10px;
+    padding: 12px 0;
+    width: 20%;
 }

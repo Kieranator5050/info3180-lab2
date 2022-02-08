@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<section class="header-section">
+    <img src="{{ url_for('static',filename='user.png') }}" class="profile-pic">
+    <h1 class="name">Kieran Jaggernauth</h1>
+    <p class="header-info">@keyjag</p>
+    <p class="header-info">Kingston, Jamaica</p>
+    <p class="header-info">Joined {{ date_joined }}</p>
+</section>
+
+<section class="body-section">
+    <p class="bio">I'm Kieran, a problem solver, web developer, musician and animal lover. One day 
+        I hope to pursue a career in Cybersecurity or Web Development. Or maybe a combination 
+        of both. </p>
+
+    <div class="bar-main">
+        <div class="bar-item">
+            <p class="bar-number">7</p>
+            <p class="bar-text">Posts</p>
+        </div>
+        <div class="bar-item">
+            <p class="bar-number">100</p>
+            <p class="bar-text">Following</p>
+        </div>
+        <div class="bar-item">
+            <p class="bar-number">250</p>
+            <p class="bar-text">Followers</p>
+        </div>
+    </div>
+
+    <button type="submit" class="btn">Follow</button>
+
+</section>
+
+{% endblock %}
